@@ -21,7 +21,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState("");
   const [watchedMovies, setWatchedMovies] = useLocalStorage([], "watched");
 
-  console.log(watchedMovies);
+
 
   function handleQuery(query) {
     setQuery(query);
